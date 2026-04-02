@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;0,900;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+@theme {
+  --font-headline: "Noto Serif", serif;
+  --font-body: "Plus Jakarta Sans", sans-serif;
+
+  --color-background: #fff8f3;
+  --color-primary: #361f1a;
+  --color-primary-container: #4e342e;
+  --color-on-primary: #ffffff;
+  --color-secondary: #56642b;
+  --color-secondary-container: #d6e7a1;
+  --color-on-secondary-container: #5a682f;
+  --color-surface: #fff8f3;
+  --color-surface-container-low: #fcf2e7;
+  --color-surface-container-high: #f0e7dc;
+  --color-surface-container-highest: #eae1d6;
+  --color-on-surface: #1f1b15;
+  --color-on-surface-variant: #504442;
+  --color-outline: #827471;
+  --color-outline-variant: #d4c3bf;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-on-surface font-body;
+  }
+}
+
+

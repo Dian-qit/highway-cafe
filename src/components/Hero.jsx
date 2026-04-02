@@ -23,10 +23,10 @@ const Hero = () => {
                 </p>
                 <div className="flex flex-wrap gap-4">
                     <button className="bg-linear-to-br from-primary to-primary-container text-on-primary px-8 py-4 rounded-xl font-bold text-lg shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all">
-                        View Full Menu
+                        <a href="#about">About Us</a>
                     </button>
                     <button className="bg-surface-container-highest text-primary px-8 py-4 rounded-xl font-bold text-lg hover:bg-surface-dim hover:-translate-y-1 transition-all">
-                        Visit Us
+                        <a href="#contact">Visit Us</a>
                     </button>
                 </div>
             </motion.div>

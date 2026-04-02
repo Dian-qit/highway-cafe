@@ -11,7 +11,7 @@ const Navbar = () => {
 
         <ul>
             {navLinks.map((link) => (
-            <li key={link.id} className="inline-block ml-6 md:ml-10 text-primary font-headline text-lg hover:opacity-70 transition-opacity">
+            <li key={link.id} className="hidden md:inline-block ml-6 md:ml-10 text-primary font-headline text-lg hover:opacity-70 transition-opacity ">
                 <a href={`#${link.id}`}>{link.title}</a>
             </li>
             ))}

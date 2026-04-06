@@ -29,8 +29,11 @@ const Footer = () => {
                 <h4 className="text-primary font-bold text-sm mb-2">Legal</h4>
                 <a href="#" className="text-outline hover:text-primary text-sm transition-colors">Privacy Policy</a>
                 <div className="mt-auto pt-8 border-t border-outline-variant/30 w-full text-center md:text-left">
-                    <p className="text-outline font-body text-[10px] uppercase tracking-widest">
-                        © 2026 Pretty Duck Studios. 
+                    <p className="text-outline font-body text-[10px] tracking-widest">
+                        © 2026 Highway Café.  <br /> all rights reserved.
+                    </p>
+                    <p className="text-outline font-body text-[10px] tracking-widest">
+                        Designed by Pretty Duck Studios.
                     </p>
                 </div>
             </div>
